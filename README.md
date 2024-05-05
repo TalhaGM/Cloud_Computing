@@ -1,4 +1,4 @@
-<h1 aling="center"> Cloud_Computing </h1>
+<h1 align="center"> Cloud_Computing </h1>
 <br>
 <h3>Used Technologies</h3>
 <ul>
