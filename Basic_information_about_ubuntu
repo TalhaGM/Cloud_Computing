@@ -1,0 +1,31 @@
+NOTLAR
+  If you are a user of this program, at terminal you will see '$' at start of the code.
+KOMUTLAR
+  
+  ifconfig       // sudo apt herşeyi gösteriyo
+  pwd            // print working directory
+  ls             // listele
+  ls-lha         // lists and shows screat files
+  tab            // sunucuda çalışan süreçler
+  ls-lha/home    //
+  top            //
+  ctrl l         // ekranı siler
+  yukarı ok tuşu // eski yazdığımız komutları gösterir
+  sudo app search// varmı yokmu bakmak
+
+  ctrl alt t     //  ubuntuda komut terminalini açar
+  ctrl c         //  süreçleri bitirir
+
+  htop // what works on this server
+    < f6 = sort by   
+
+
+İLK İŞ
+  *desktop
+  sudo apt update             -
+  sudo apt upgrade            +
+  sudo apt install htop       + 
+  sudo apt install net-tools    //ifconfig'i yükler
+
+  *sunucu
+  sudo apt openssh-server
