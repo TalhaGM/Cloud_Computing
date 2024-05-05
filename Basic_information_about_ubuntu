@@ -1,7 +1,11 @@
 NOTLAR
   If you are a user of this program, at terminal you will see '$' at start of the code.
+  If you press 3dots at ur virtualmachine there is SnapShot its for taking pics of your server/desktop.
+  If u cant see ur mause rigth click (sağ kontroll) mause will apear.
+
 KOMUTLAR
-  
+  sudo init 0    // sıfırıncı kesme çeki ubuntuyu kapatır.
+  sudo init 6    // Restart
   ifconfig       // sudo apt herşeyi gösteriyo
   pwd            // print working directory
   ls             // listele
@@ -18,14 +22,42 @@ KOMUTLAR
 
   htop // what works on this server
     < f6 = sort by   
+      -more  // düzgün sıralama
+      -less
+      q     //ekrandan çıkmak *****
+    >
 
-
-İLK İŞ
+Ubuntu DESKTOP
+-ctrl alt t
   *desktop
   sudo apt update             -
   sudo apt upgrade            +
   sudo apt install htop       + 
-  sudo apt install net-tools    //ifconfig'i yükler
+  sudo apt install nmap       +
+  sudo apt install net-tools  +  //ifconfig'i yükler
 
+
+Ubuntu SERVER (sunucu)
+-
   *sunucu
   sudo apt openssh-server
+
+
+
+
+inet 10.0.2.15  //ağ arayüzünün atanmış olan IP adresidir.
+inet 127.0.0.1  //localhost
+
+
+
+
+ping (sunucu ip adresi yazılır) / iletişime geçtiler
+ping google.com (interneti inceler)
+ trace root (incele bilgisayar ile goole a kadar arada kaç tane paket gitceğini rotayı takip ederek trace root ile paket nerden geçtiğini görüp aqğın cihazlarının ip aderesini öğrenebilrisiniz 
+ arp poisining (saldırı ip yi bozup sahte sanal cihaz koymak)
+sudo  init 0 (sıfırıncı kesme çeki biligsayarı kapatır)
+sudo init 6 (restart atar)
+file tool network mannager (gir ctrl h ) 
+crate diiyp kur 1 tane
+
+gelişmiş internette host only internet kuruyo uygulamaa
