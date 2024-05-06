@@ -61,3 +61,12 @@ file tool network mannager (gir ctrl h )
 crate diiyp kur 1 tane
 
 gelişmiş internette host only internet kuruyo uygulamaa
+
+
+
+Projeyi yaparken en basit anlamda üç adet sunucu/servisinizin olması gerekiyor.
+Bu üç sunucu ya da servisin gerçekleştirilmesi ile ilgili istediğiniz bulut teknolojisini seçebilirsiniz.
+Üç farklı sanal makine; Örnek olarak İstemci, Web Sunucusu, Veritabanı Sunucusu olabilir.
+Bu üç sunucuyu ister sanallaştırma ile, isterseniz DOCKER ile isterseniz de Amazon AWS, Google Cloud Platform, 
+ya da Microsoft Azure üzerinde (ya da burada adı geçmeyen farklı bir bulut platformu) servis edebilirsiniz.
+Önemli olan üçünün (İstemci, Web Sunucusu, VT Sunucusu) birbiriyle konuşması, veri alışverişinde bulunması. Ödevin amacı da bu zaten.
