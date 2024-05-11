@@ -2,6 +2,7 @@ NOTLAR
   If you are a user of this program, at terminal you will see '$' at start of the code.
   If you press 3dots at ur virtualmachine there is SnapShot its for taking pics of your server/desktop.
   If u cant see ur mause rigth click (sağ kontroll) mause will apear.
+  If you want to make "~"  use AltGr + Ü
 
 KOMUTLAR
   sudo init 0    // sıfırıncı kesme çeki ubuntuyu kapatır.
