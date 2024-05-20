@@ -1,0 +1,16 @@
+Here are some basic Vim commands to get you started:
+
+Enter Insert Mode: Press i to start inserting text.
+Exit Insert Mode: Press Esc to return to command mode.
+Delete a Character: Use x or Del to delete the character under the cursor.
+Undo Changes: Press u to undo your last action.
+Redo Changes: Use Ctrl + r to redo changes.
+Copy a Line: Press yy to copy the current line.
+Delete a Line: Use dd to delete the current line.
+Paste Content: Press p to paste the content from the buffer.
+Search and Navigate: Use / followed by a search term to find text. Press n to cycle through matches.
+Move to Beginning/End of File: Use [ or gg to move to the beginning, and ] or G to move to the end of the file.
+Search and Replace: Use :%s/foo/bar/gci to replace all occurrences of “foo” with “bar” (with confirmation).
+Save Changes: Press Esc, then :w to save changes.
+Save and Quit: Use Esc, then :wq or Esc, then ZZ to save and quit Vim.
+Force Quit: Press Esc, then :q! to discard all changes and exit Vim.
